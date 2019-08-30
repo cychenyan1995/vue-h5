@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>tablearrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="tablearrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(30.000000, 15.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M7.90244004,35 L38.8039827,63.9701962 C40.0630835,65.1506033 40.1268775,67.1282152 38.9464704,68.387316 C37.7660634,69.6464169 35.7884515,69.7102108 34.5293506,68.5298038 L1.19601731,37.2798038 C-0.120894657,36.0451988 -0.120894657,33.9548012 1.19601731,32.7201962 L34.5293506,1.47019624 C35.7884515,0.289789189 37.7660634,0.353583121 38.9464704,1.61268397 C40.1268775,2.87178482 40.0630835,4.84939672 38.8039827,6.02980376 L7.90244004,35 Z" id="Path" transform="translate(20.000005, 35.000000) scale(-1, 1) translate(-20.000005, -35.000000) "></path>
+        </g>
+    </g>
+</svg>

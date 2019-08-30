@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>loading</title>
+    <desc>Created with Sketch.</desc>
+    <g id="loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M50,0 C52.6723456,0 54.8387097,2.16636411 54.8387097,4.83870968 C54.8387097,7.51105524 52.6723456,9.67741935 50,9.67741935 C27.7304536,9.67741935 9.67741935,27.7304536 9.67741935,50 C9.67741935,72.2695464 27.7304536,90.3225806 50,90.3225806 C72.2695464,90.3225806 90.3225806,72.2695464 90.3225806,50 C90.3225806,47.3276544 92.4889448,45.1612903 95.1612903,45.1612903 C97.8336359,45.1612903 100,47.3276544 100,50 C100,77.6142375 77.6142375,100 50,100 C22.3857625,100 0,77.6142375 0,50 C0,22.3857625 22.3857625,0 50,0 Z" id="Path" fill="#fff" fill-rule="nonzero"></path>
+    </g>
+</svg>

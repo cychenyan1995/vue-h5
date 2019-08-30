@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>市场营销活动</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
+    <script src="./qrScan.js"></script>
+    <!-- <script src="./vconsole.min.js"></script> -->
+</head>
+
+<body>
+    <noscript>
+        <strong>We're sorry but ydc-vue2 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script>
+        window.onload = function() {
+            window.viewportUnitsBuggyfill.init({
+                hacks: window.viewportUnitsBuggyfillHacks
+            });
+            // var vConsole = new VConsole();
+        }
+    </script>
+    <script>
+        // 阻止底部position：fixed元素被键盘顶起;
+        window.onload = function () {
+            var originalHeight = document.documentElement.clientHeight || document.body.clientHeight;
+            var getEl = function (selector) {
+                return document.querySelector(selector)
+            }
+            var block = 'display: block';
+            var none = 'display: none';
+            window.onresize=function(){
+            // 键盘弹起与隐藏都会引起窗口的高度发生变化
+                var resizeHeight = document.documentElement.clientHeight || document.body.clientHeight;
+                if (resizeHeight-0 < originalHeight-0) {
+                // 当软键盘弹起，在此处操作
+                    // getEl('#nav').style = none;
+                    // getEl('.add-activi').style = none;
+                    // getEl('.footer').style = none;
+                } else {
+                // 当软键盘收起，在此处操作
+                    // getEl('#nav').style = 'display:flex';
+                    // getEl('.add-activi').style = block;
+                    // getEl('.footer').style = block;
+                }
+            }
+            // ios
+            document.body.addEventListener('focusin', () => {
+                // 软键盘弹出的事件处理
+                if(1){
+    
+                }
+            })
+            document.body.addEventListener('focusout', () => {
+                // 软键盘收起的事件处理
+                if(1){
+        
+                }
+            })
+            
+            // const li0 = document.querySelectorAll('.sell-man-main li')[0];
+            // let startX, startY;
+            // li0.addEventListener('touchstart', function(event) {
+            //     event.preventDefault();
+            //     startX = event.touches[0].pageX;
+            //     startY = event.touches[0].pageY;
+            //     console.log(event.touches)
+            // })
+            // li0.addEventListener('touchend', function(event){
+            //     event.preventDefault();
+            //     let endX = event.changedTouches[0].pageX - startX;
+            //     let endY = event.changedTouches[0].pageY - startY;
+            //     if (Math.abs(endX) > Math.abs(endY)) {
+            //         if (endX < -20) {
+            //             console.log('向左')
+            //         }
+            //     }
+            //     console.log(event.changedTouches)
+            // })
+        }    
+    </script>
+</body>
+
+</html>

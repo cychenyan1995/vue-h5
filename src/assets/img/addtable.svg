@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>addtable</title>
+    <desc>Created with Sketch.</desc>
+    <g id="addtable" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M45,45 L45,15 C45,12.2385763 47.2385763,10 50,10 C52.7614237,10 55,12.2385763 55,15 L55,45 L85,45 C87.7614237,45 90,47.2385763 90,50 C90,52.7614237 87.7614237,55 85,55 L55,55 L55,85 C55,87.7614237 52.7614237,90 50,90 C47.2385763,90 45,87.7614237 45,85 L45,55 L15,55 C12.2385763,55 10,52.7614237 10,50 C10,47.2385763 12.2385763,45 15,45 L45,45 Z" id="Combined-Shape" fill="#fff"></path>
+    </g>
+</svg>
