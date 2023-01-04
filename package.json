@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
-    "@vue/cli-service": "^3.0.3",
+    "@vue/cli-service": "^5.0.8",
     "babel-plugin-component": "^1.1.1",
     "cssnano": "^4.1.7",
     "cssnano-preset-advanced": "^4.0.5",
